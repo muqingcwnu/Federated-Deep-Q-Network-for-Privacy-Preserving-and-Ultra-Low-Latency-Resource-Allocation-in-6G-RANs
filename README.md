@@ -1,8 +1,8 @@
-# FedDQN: Federated Deep Q-Network for 6G Resource Allocation
+"FedDQN: Federated Deep Q-Network for 6G Resource Allocation"
 
 This repository implements a Federated Deep Q-Network (FedDQN) approach for resource allocation in 6G wireless networks. The implementation includes both centralized and federated learning approaches, along with several baseline algorithms for comparison.
 
-## Overview
+Overview
 
 The project implements a reinforcement learning-based resource allocation system for 6G wireless networks, featuring:
 
@@ -12,15 +12,15 @@ The project implements a reinforcement learning-based resource allocation system
 - Traditional scheduling algorithms (PFS, Round Robin, Static Average)
 - Comprehensive performance evaluation and visualization
 
-## Features
+Features
 
-- **Federated Learning**: Implements federated averaging for distributed training
-- **Multiple Baselines**: Includes various baseline algorithms for comparison
-- **Performance Metrics**: Tracks latency, fairness, throughput, and communication overhead
-- **Visualization**: Generates detailed plots and statistical analysis
-- **Configurable Parameters**: Easy-to-modify hyperparameters and network settings
+- Federated Learning: Implements federated averaging for distributed training
+- Multiple Baselines: Includes various baseline algorithms for comparison
+- Performance Metrics: Tracks latency, fairness, throughput, and communication overhead
+- Visualization: Generates detailed plots and statistical analysis
+- Configurable Parameters: Easy-to-modify hyperparameters and network settings
 
-## Requirements
+Requirements
 
 - Python 3.7+
 - TensorFlow 2.10+
@@ -35,7 +35,7 @@ Install dependencies using:
 pip install -r requirements.txt
 ```
 
-## Project Structure
+Project Structure
 
 ```
 ├── experiment.py          # Main experiment runner
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 └── results/            # Generated plots and statistics
 ```
 
-## Usage
+ Usage
 
 Run the experiment:
 ```bash
@@ -60,7 +60,7 @@ This will:
 3. Save statistical analysis to CSV
 4. Create visualization plots in the results directory
 
-## Results
+ Results
 
 The experiment generates several plots:
 - Latency comparison
@@ -73,41 +73,26 @@ All results are saved in the `results` directory, including:
 - PNG and PDF versions of all plots
 - Detailed statistics in `experiment_stats.csv`
 
-## Implementation Details
+Implementation Details
 
-### FedDQN Agent
+ FedDQN Agent
 - Implements federated learning with local DQN agents
 - Uses experience replay and target networks
 - Supports both centralized and federated modes
 
-### Simulation Environment
+ Simulation Environment
 - Models wireless network with multiple base stations
 - Implements queue-based packet scheduling
 - Tracks performance metrics in real-time
 
-### Baseline Algorithms
+ Baseline Algorithms
 - Centralized DQN
 - DDPG
 - Proportional Fair Scheduling (PFS)
 - Round Robin
 - Static Average
 
-## Citation
-
-If you use this code in your research, please cite:
-```
-@article{feddqn6g,
-  title={FedDQN: Federated Deep Q-Network for 6G Resource Allocation},
-  author={Your Name},
-  journal={Your Journal},
-  year={2024}
-}
-```
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contributing
+Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+Thank you ................................................................
