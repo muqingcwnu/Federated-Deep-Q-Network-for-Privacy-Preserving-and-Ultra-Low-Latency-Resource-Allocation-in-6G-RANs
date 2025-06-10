@@ -92,21 +92,10 @@ All results are saved in the `results` directory, including:
 - Round Robin
 - Static Average
 
-## Citation
 
-If you use this code in your research, please cite:
-```
-@article{feddqn6g,
-  title={FedDQN: Federated Deep Q-Network for 6G Resource Allocation},
-  author={Your Name},
-  journal={Your Journal},
-  year={2024}
-}
 ```
 
-## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contributing
 
